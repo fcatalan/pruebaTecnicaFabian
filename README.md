@@ -14,7 +14,7 @@ API Back, desarrollado en spring boot 3.1.2, con una arquitectura limpia basada 
       id int primary key generated always as identity,
       description        varchar(1000) NOT NULL,
       created_at  timestamp NOT NULL,
-      is_actived boolean not null
+      activated boolean not null
   );
 
  ```  
